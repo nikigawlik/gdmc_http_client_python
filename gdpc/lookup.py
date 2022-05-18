@@ -64,7 +64,7 @@ COLORS = ('white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink',
           'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green',
           'red', 'black')
 
-WOODS = ('oak', 'birch', 'spruce', 'jungle', 'acacia', 'crimson', 'warped')
+WOODS = ('oak', 'birch', 'spruce', 'jungle', 'acacia', 'dark_oak', 'crimson', 'warped')
 
 # ========================================================= blocks
 
