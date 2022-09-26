@@ -1,3 +1,7 @@
+```
+This repository is outdated! The latest version is available on github.com/avdstaaij/gdpc
+```
+
 ## GDPC 5.0 (Manicule)
 
 GDPC (Generative Design Python Client) is a framework for use in conjunction with the [Minecraft HTTP Interface Mod](https://github.com/nilsgawlik/gdmc_http_interface) built for the [GDMC competition](https://gendesignmc.engineering.nyu.edu).
