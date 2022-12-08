@@ -64,7 +64,10 @@ COLORS = ('white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink',
           'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green',
           'red', 'black')
 
-WOODS = ('oak', 'birch', 'spruce', 'jungle', 'acacia', 'crimson', 'warped')
+WOODS = ('oak', 'birch', 'spruce', 'jungle', 'acacia', 'dark_oak', 'crimson', 'warped')
+
+NATURAL_STONES = ('stone', 'diorite', 'andesite', 'granite', 'sandstone', 'red_sandstone', 'blackstone', 'infested_stone')
+STONES = ('cobblestone', 'infested_cobblestone') + NATURAL_STONE
 
 # ========================================================= blocks
 
@@ -446,7 +449,7 @@ FUNGI = ('minecraft:red_mushroom', 'minecraft:brown_mushroom',
          'minecraft:warped_fungus', 'minecraft:crimson_fungus')
 WILDCROPS = ('minecraft:cocoa', 'minecraft:sweet_berry_bush')
 TALLCROPS = ('minecraft:bamboo', 'minecraft:sugar_cane',
-             'minecraft:cactus')
+             'minecraft:cactus', 'minecraft:kelp')
 GRASSES = ('minecraft:grass', 'minecraft:tall_grass',
            'minecraft:fern', 'minecraft:large_fern')
 VINES = ('minecraft:vine',
@@ -458,10 +461,15 @@ PLANTS = ('minecraft:dead_bush',) + FLOWERS + CROPS + FUNGI + WILDCROPS \
     + TALLCROPS + GRASSES + VINES
 
 # landscape
-# TODO: LIQUIDS
-# TODO: SOILS
-# TODO: STONES
-# TODO: ORES
+LIQUIDS = ('minecraft:water', 'minecraft:flowing_water', 'minecraft:lava', 'minecraft:flowing_lava')
+
+SOILS = ('minecraft:grass_block', 'minecraft:dirt', 'minecraft:coarse_dirt', 'minecraft:podzol', 'minecraft:mycelium')
+
+ORES = ('minecraft:gold_ore'. 'minecraft:iron_ore',
+        'minecraft:coal_ore', 'minecraft:nether_gold_ore',
+        'minecraft:lapis_ore', 'minecraft:diamond_ore',
+        'minecraft:redstone_ore', 'minecraft:emerald_ore',
+        'minecraft:nether_quartz_ore')
 
 
 # construction
