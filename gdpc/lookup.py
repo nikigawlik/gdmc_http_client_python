@@ -16,7 +16,7 @@ import sys
 # to translate a 255 RGB to hex RGB value
 # >>> def f(r, g, b): return "0x"+(hex(r)+hex(g)+hex(b)).replace("0x", "")
 
-# See https://minecraft.fandom.com/wiki/Data_version#List_of_data_versions
+# See https://minecraft.wiki/w/Data_version#List_of_data_versions
 SUPPORTS = 2566  # Supported Minecraft version code
 
 # all major Minecraft version codes
@@ -723,7 +723,7 @@ TRANSPARENT = INVISIBLE + FILTERING + UNOBTRUSIVE + OBTRUSIVE
 
 # ========================================================= map colouring
 # block visualization
-# based on https://minecraft.gamepedia.com/Map_item_format#Base_colors
+# based on https://minecraft.wiki/w/Map_item_format#Base_colors
 # liberty was taken to move stained glass panes and various flowers
 # into the appropriate colour category
 
