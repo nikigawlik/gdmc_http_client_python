@@ -121,7 +121,7 @@ def writeBook(text, title="Chronicle", author=__author__,
     - `\\r`: When at start of line, align text to right side
 
     NOTE: For supported special characters see
-        https://minecraft.fandom.com/wiki/Language#Font
+        https://minecraft.wiki/w/Language#Font
     IMPORTANT: When using `\\s` text is directly interpreted by Minecraft,
         so all line breaks must be `\\\\n` to function
     """

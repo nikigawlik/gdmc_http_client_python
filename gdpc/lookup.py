@@ -16,7 +16,7 @@ import sys
 # to translate a 255 RGB to hex RGB value
 # >>> def f(r, g, b): return "0x"+(hex(r)+hex(g)+hex(b)).replace("0x", "")
 
-# See https://minecraft.fandom.com/wiki/Data_version#List_of_data_versions
+# See https://minecraft.wiki/w/Data_version#List_of_data_versions
 SUPPORTS = 2566  # Supported Minecraft version code
 
 # all major Minecraft version codes
