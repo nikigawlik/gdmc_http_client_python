@@ -723,7 +723,7 @@ TRANSPARENT = INVISIBLE + FILTERING + UNOBTRUSIVE + OBTRUSIVE
 
 # ========================================================= map colouring
 # block visualization
-# based on https://minecraft.gamepedia.com/Map_item_format#Base_colors
+# based on https://minecraft.wiki/w/Map_item_format#Base_colors
 # liberty was taken to move stained glass panes and various flowers
 # into the appropriate colour category
 
